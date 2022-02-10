@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={ images.gericht } alt="logo" />
+        <Link to="/">
+          <img src={ images.gericht } alt="logo" />
+        </Link>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><Link to="/">Home</Link></li>

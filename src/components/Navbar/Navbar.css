@@ -65,23 +65,30 @@
 }
 
 .app__navbar-dropdown-content {
-  display: none;
-  position: absolute;
   background-color: var(--color-black);
+  display: none;
   min-width: 200px;
+  left: calc(-25%);
+  padding-top: 1rem;
+  position: absolute;
+  top: calc(100%);
   z-index: 100;
-  padding: 1rem 2rem;
 }
 
 .app__navbar-dropdown-content li {
-  margin: 1.5rem 0;
+  margin: 0;
+  padding: 0;
+}
+
+.app__navbar-dropdown-content li a{
+  display: block;
+  padding: 1rem 2rem;
+  width: 100%;
 }
 
 .app__navbar-dropdown:hover .app__navbar-dropdown-content {
   display: block;
 }
-
-
 
 /* small screens */
 .app__navbar-smallscreen {
