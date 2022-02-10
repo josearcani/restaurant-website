@@ -1,22 +1,32 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Bar from '../pages/Bar/Bar';
-import Home from '../pages/Home/Home';
+import {
+  About,
+  Bar,
+  Blog,
+  Chefs,
+  Contact,
+  Error404,
+  Faq,
+  Home,
+  Services,
+  Soon,
+} from '../pages';
 import './Wrapper.css';
 
 export const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/bar-home" element={ <Bar /> } />
-        <Route path="/contact-us" element={ <Bar /> } />
-        <Route path="/about-us" element={ <Bar /> } />
-        <Route path="/services" element={ <Bar /> } />
-        <Route path="/faq" element={ <Bar /> } />
-        <Route path="/comming-soon" element={ <Bar /> } />
-        <Route path="/error" element={ <Bar /> } />
-        <Route path="/chefs" element={ <Bar /> } />
-        <Route path="/blog" element={ <Bar /> } />
-        <Route path="/" element={ <Home /> } />
+        <Route exact path="/bar-home" element={ <Bar /> } />
+        <Route exact path="/contact-us" element={ <Contact /> } />
+        <Route exact path="/about-us" element={ <About /> } />
+        <Route exact path="/services" element={ <Services /> } />
+        <Route exact path="/faq" element={ <Faq /> } />
+        <Route exact path="/comming-soon" element={ <Soon /> } />
+        <Route exact path="/chefs" element={ <Chefs /> } />
+        <Route exact path="/blog" element={ <Blog /> } />
+        <Route exact path="/" element={ <Home /> } />
+        <Route exact path="/*" element={ <Error404 /> } />
       </Routes>
     </BrowserRouter>
   )
