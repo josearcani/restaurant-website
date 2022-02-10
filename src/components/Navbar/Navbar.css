@@ -60,6 +60,29 @@
   background: var(--color-grey);
 }
 
+.app__navbar-dropdown {
+  position: relative;
+}
+
+.app__navbar-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-black);
+  min-width: 200px;
+  z-index: 100;
+  padding: 1rem 2rem;
+}
+
+.app__navbar-dropdown-content li {
+  margin: 1.5rem 0;
+}
+
+.app__navbar-dropdown:hover .app__navbar-dropdown-content {
+  display: block;
+}
+
+
+
 /* small screens */
 .app__navbar-smallscreen {
   display: none;
