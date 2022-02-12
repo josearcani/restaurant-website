@@ -1,4 +1,5 @@
 import AboutUs from './AboutUs/AboutUs';
+import BookTable from './BookTable/BookTable';
 import Chef from './Chef/Chef';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
@@ -11,6 +12,7 @@ import SpecialMenu from './Menu/SpecialMenu';
 
 export {
   AboutUs,
+  BookTable,
   Chef,
   FindUs,
   Footer,

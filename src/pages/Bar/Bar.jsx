@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from '../../components';
-import { AboutUs, Chef, FindUs, Footer, Gallery, HeaderBar, Intro, Laurels, SpecialMenu } from '../../container';
+import { BookTable, FindUs, Footer, HeaderBar, SpecialMenu } from '../../container';
 
 
 const Bar = () => {
@@ -8,7 +8,7 @@ const Bar = () => {
     <>
       <Navbar />
       <HeaderBar />
-      <div>Book a table</div>
+      <BookTable />
       <div>Foot drinks entertainment in one</div>
       <div>What is your poison</div>
       <div>Happy hours</div>
