@@ -37,4 +37,4 @@ const BookTable = () => {
   )
 }
 
-export default BookTable
+export default BookTable;
