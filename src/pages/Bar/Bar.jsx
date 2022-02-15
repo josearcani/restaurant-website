@@ -1,13 +1,20 @@
 import React from 'react';
 import { Navbar } from '../../components';
-// import { Footer } from '../../container';
+import { BookTable, FindUs, Footer, HeaderBar, SpecialMenu } from '../../container';
+
 
 const Bar = () => {
   return (
     <>
       <Navbar />
-      <div>Bar Screen</div>
-      {/* <Footer /> */}
+      <HeaderBar />
+      <BookTable />
+      <div>Foot drinks entertainment in one</div>
+      <div>What is your poison</div>
+      <div>Happy hours</div>
+      <SpecialMenu />
+      <FindUs />
+      <Footer />
     </>
   )
 }
