@@ -1,0 +1,78 @@
+.app__poison {
+  align-items: center;
+  background: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
+}
+
+.app__poison-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.app__poison-images {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.app__poison-images_card {
+  height: 447px;
+  min-width: 301px;
+  position: relative;
+}
+
+.app__poison-images-icon {
+  color: #fff;
+  font-size: 45px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+.app__poison-images_card img {
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  width: 100%;
+  transition: .5s ease;
+}
+
+.app__poison-images_card:hover img {
+  opacity: 0.35;
+}
+
+.app__poison-images_card:hover .app__poison-images-icon {
+  opacity: 1;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__poison-images_card {
+    min-width: 400px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__poison {
+    flex-direction: column;
+  }
+
+  .app__poison-images_card {
+    min-width: 263px;
+    height: 384px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app__poison-images {
+    flex-direction: column;
+  }
+}
