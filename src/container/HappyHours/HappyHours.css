@@ -1,0 +1,52 @@
+.app__happyhours {
+  align-items: center;
+  background-color: var(--color-black);
+  background-image: url('../../assets/happyhour.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.app__happyhours_content {
+  text-align: center;
+}
+
+.app__happyhours_content h1 {
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 166.4px;
+}
+
+.app__happyhours_content p {
+  font-family: var(--font-base);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.6px;
+}
+
+@media screen and (max-width: 1000px) {
+  .app__happyhours_content h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  
+  .app__happyhours_content p {
+    font-size: 26px;
+    line-height: 26px;
+  }  
+}
+
+@media screen and (max-width: 520px) {
+  .app__happyhours_content h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  
+  .app__happyhours_content p {
+    font-size: 16px;
+    line-height: 16px;
+  }  
+}
