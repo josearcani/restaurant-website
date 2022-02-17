@@ -1,11 +1,18 @@
 import React from 'react';
+import { BookTable, Footer, HappyHours } from '../../container';
+
 import { Navbar } from '../../components';
 
 const Services = () => {
   return (
     <>
       <Navbar />
-      <div>Services</div>
+      <div>home > our services</div>
+      <div>Serving quality</div>
+      <div>bar menu - food menu - desserts menu</div>
+      <BookTable />
+      <HappyHours />
+      <Footer />
     </>
   )
 }

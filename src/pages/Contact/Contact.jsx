@@ -1,11 +1,15 @@
 import React from 'react';
 import { Navbar } from '../../components';
+import { Footer } from '../../container';
 
 const Contact = () => {
   return (
     <>
       <Navbar />
-      <div>Contact</div>
+      <div>home > contact us</div>
+      <div>Map</div>
+      <div>Subcribe ???</div>
+      <Footer />
     </>
   )
 }
