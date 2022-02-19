@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/restaurant-website/static/css/main.6a5b0532.css",
-    "main.js": "/restaurant-website/static/js/main.3d83ba5b.js",
+    "main.css": "/restaurant-website/static/css/main.49f4a583.css",
+    "main.js": "/restaurant-website/static/js/main.316c3e2b.js",
     "static/media/meal.mp4": "/restaurant-website/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/restaurant-website/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/welcome.png": "/restaurant-website/static/media/welcome.d724eb984456d9c97470.png",
     "static/media/findus.png": "/restaurant-website/static/media/findus.585c393ccd3671513743.png",
     "static/media/laurels.png": "/restaurant-website/static/media/laurels.e760828692795d4aafd7.png",
+    "static/media/happyhour.png": "/restaurant-website/static/media/happyhour.15eab4802f28cd7fb315.png",
     "static/media/chef.png": "/restaurant-website/static/media/chef.02d6c5b61bfdc70303b4.png",
     "static/media/menu.png": "/restaurant-website/static/media/menu.a8287c67809afebcc280.png",
     "static/media/gallery04.png": "/restaurant-website/static/media/gallery04.c36a695f8a3b9d311106.png",
     "static/media/gallery03.png": "/restaurant-website/static/media/gallery03.b2d50180e8590d4dd330.png",
     "static/media/gallery02.png": "/restaurant-website/static/media/gallery02.27663bd9016b72ccd328.png",
+    "static/media/barHome.png": "/restaurant-website/static/media/barHome.ad685cc45ec6b173ca69.png",
     "static/media/gallery01.png": "/restaurant-website/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/beer02.png": "/restaurant-website/static/media/beer02.23ad11f90f5ddfddb06c.png",
+    "static/media/poison03.png": "/restaurant-website/static/media/poison03.4dd73c9f18a769ed52ef.png",
+    "static/media/poison02.png": "/restaurant-website/static/media/poison02.81cde5aef5b93964ed5e.png",
+    "static/media/beer01.png": "/restaurant-website/static/media/beer01.cdd8c381872e7be691e3.png",
+    "static/media/poison01.png": "/restaurant-website/static/media/poison01.69897e41ce6edf9930ad.png",
     "static/media/knife.png": "/restaurant-website/static/media/knife.1121c0a5afb62acb31cb.png",
     "static/media/overlaybg.png": "/restaurant-website/static/media/overlaybg.165362eea72d1614ae28.png",
     "static/media/G.png": "/restaurant-website/static/media/G.b571eb82e589ec305ec9.png",
@@ -23,12 +30,12 @@
     "static/media/award03.png": "/restaurant-website/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "static/media/sign.png": "/restaurant-website/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/restaurant-website/index.html",
-    "static/media/spoon.svg": "/restaurant-website/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.6a5b0532.css.map": "/restaurant-website/static/css/main.6a5b0532.css.map",
-    "main.3d83ba5b.js.map": "/restaurant-website/static/js/main.3d83ba5b.js.map"
+    "static/media/spoon.svg": "/restaurant-website/static/media/spoon.b5681c867bb867d794693513d048401f.svg",
+    "main.49f4a583.css.map": "/restaurant-website/static/css/main.49f4a583.css.map",
+    "main.316c3e2b.js.map": "/restaurant-website/static/js/main.316c3e2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a5b0532.css",
-    "static/js/main.3d83ba5b.js"
+    "static/css/main.49f4a583.css",
+    "static/js/main.316c3e2b.js"
   ]
 }
